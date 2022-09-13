@@ -1,0 +1,18 @@
+name: EventAdmin
+version: '${project.version}'
+main: fr.arcane.eventadmin.EventAdmin
+api-version: 1.17
+authors: [ Arcane ]
+description: Plugin d'administration d'event.
+commands:
+  adminform:
+    description: Commande du mode admin.
+    permission: adminevent.adminform
+
+  vanish:
+    description: Commande de vanish.
+    permission: adminevent.vanish
+
+  pvp:
+    description: Commande du pvp.
+    permission: adminevent.pvp
